@@ -1,0 +1,146 @@
+Cyware Labs
+Platform
+Solutions
+Products
+Partners
+Resources
+Company
+
+Get Demo
+Quarterback AI
+Daily Threat Briefing
+Diamond Trail
+Cyware Daily Threat Intelligence, August 11, 2025
+shutterstock 2517566697
+ScarCruft is pulling out all the stops with a malware campaign disguised as a simple postal code update, blending languages and abusing legitimate services for maximum stealth. This North Korean APT group deploys phishing emails with malicious LNK files in RAR archives, unleashing nine malicious components.
+
+A fresh twist on the DarkCloud malware is catching victims off guard through phishing emails packed with obfuscated JavaScript in RAR archives. Written in Visual Basic 6, this variant dodges sandboxes by monitoring user activity, steals credentials and payment data from apps, and exfiltrates it all via SMTP as text files.
+
+Attackers are turning Windows domain controllers into unwitting DDoS weapons with a clever technique called Win-DDoS. This leverages the sheer bandwidth of thousands of DCs, while exposed critical DoS vulnerabilities in LDAP and LSASS add to the remote exploitation risks, turning the platform against itself.
+
+Top Malware Reported in the Last 24 Hours
+ScarCruft drops VCD ransomware and more
+
+North Korean APT group ScarCruft (APT37) has launched a sophisticated malware campaign, disguising it as a postal code update notice and employing cross-language malware development, legitimate service abuse, and victim-specific ransomware targeting. The campaign utilizes the PubNub real-time messaging API for C2 communication, complicating detection and mitigation. Likely entry point is phishing emails with malicious LNK files in RAR archives. Nine distinct malware components were deployed, including NubSpy (AutoIt/PowerShell backdoor), TxPyLoader (Python-based loader), LightPeek (PowerShell infostealer), FadeStealer (keylogger/audio recorder), and CHILLYCHINO (Rust-based backdoor). VCD ransomware encrypts files using RSA and AES-256-CBC, drops bilingual ransom notes, self-deletes after execution, and renames files with the .VCD extension. 
+
+New DarkCloud malware campaign spotted
+
+Researchers identified a new variant of the DarkCloud malware campaign, which begins with a phishing email containing a malicious RAR archive. This archive includes an obfuscated JavaScript file that, when executed, runs PowerShell code to load an encrypted .NET DLL disguised as a legitimate Task Scheduler module. The malware establishes persistence by copying itself and modifying the system registry, while downloading a fileless payload from a remote URL. The DarkCloud payload, written in Visual Basic 6, employs anti-analysis techniques to avoid detection, such as monitoring user activity to evade sandboxes. It collects sensitive information, including login credentials and payment data from various applications, and exfiltrates this data via SMTP, sending it to the attacker as text files. 
+
+Top Vulnerabilities Reported in the Last 24 Hours
+WinRAR 0-day under active exploitation
+
+A zero-day vulnerability in WinRAR, tracked as CVE-2025-8088, is currently being exploited, allowing attackers to execute arbitrary code through malicious archive files. This path traversal issue affects the Windows version of WinRAR and was addressed in version 7.13. The vulnerability has been linked to cyberattacks targeting Russian organizations, where phishing emails contained booby-trapped archives that leveraged both CVE-2025-8088 and another vulnerability, CVE-2025-6218. The hacking group Paper Werewolf is suspected of utilizing this exploit, having reportedly acquired it from the dark web. 
+
+Google fixes Gemini calendar invite exploit
+
+A recently discovered vulnerability in Google Calendar allowed malicious invites to exploit Gemini, leading to potential leaks of sensitive user data. Attackers could craft invites with embedded prompt injections, which Gemini misinterpreted as legitimate user interactions. This exploitation enabled unauthorized actions such as accessing emails, controlling smart home devices, and initiating video calls without user consent. To maintain stealth, attackers typically sent multiple invites, embedding the malicious prompt in the last one to bypass user awareness.
+
+New Win-DDoS attack exploits Windows bugs
+
+Researchers have uncovered a novel attack technique named Win-DDoS, which allows attackers to exploit public Windows domain controllers (DCs) to create a powerful DDoS botnet. By manipulating the LDAP referral process, attackers can direct DCs to overwhelm a victim server without needing code execution or credentials, effectively turning the Windows platform into both the attacker and the victim. This technique can generate significant bandwidth, utilizing the resources of thousands of public DCs globally. Additionally, researchers identified several critical denial-of-service vulnerabilities within Windows components, including LDAP and LSASS, which can be exploited remotely.
+
+Related Resources
+Daily Threat Briefing
+Cyware Daily Threat Intelligence, December 19, 2025
+Daily Threat Briefing
+Cyware Daily Threat Intelligence, December 18, 2025
+Daily Threat Briefing
+Cyware Daily Threat Intelligence, December 17, 2025
+Discover Related Resources
+
+Explore Resource Library
+Weekly Threat Briefing
+Weekly Threat Briefing
+Cyware Weekly Threat Intelligence, December 15–19, 2025
+
+Read Now
+Daily Threat Briefing
+Daily Threat Briefing
+Cyware Daily Threat Intelligence, December 19, 2025
+
+Read Now
+Daily Threat Briefing
+Daily Threat Briefing
+Cyware Daily Threat Intelligence, December 18, 2025
+
+Read Now
+Daily Threat Briefing
+Daily Threat Briefing
+Cyware Daily Threat Intelligence, December 17, 2025
+
+Read Now
+Daily Threat Briefing
+Daily Threat Briefing
+Cyware Daily Threat Intelligence, December 16, 2025
+
+Read Now
+Daily Threat Briefing
+Daily Threat Briefing
+Cyware Daily Threat Intelligence, December 15, 2025
+
+Read Now
+Weekly Threat Briefing
+Weekly Threat Briefing
+Cyware Weekly Threat Intelligence, December 08–12, 2025
+
+Read Now
+Daily Threat Briefing
+Daily Threat Briefing
+Cyware Daily Threat Intelligence, December 12, 2025
+
+Read Now
+Cyware Logo
+Get the Latest Cyber Intel Insights – Subscribe Now!
+
+Email*
+
+Subscribe
+FedRAMP Ready certification logo
+SOC 2 Type 2 certification logo
+ISO 27001 certification logo
+StateRAMP/GovRAMP certification logo
+VPAT and Section 508 compliance logo
+Privacy Shield Framework compliance logo
+Products
+Cyware Intelligence Suite
+Cyware Intel Exchange
+Cyware Collaborate
+Cyware Orchestrate
+Cyware Respond
+Solutions
+Financial Services
+Healthcare
+Government
+Energy
+Manufacturing
+Platform
+Unified Threat Intelligence Management
+Agentic AI Threat Response
+Threat Intel Sharing & Collaboration
+Partners
+Channel Partners
+Technology Alliances
+MSSPs
+CywareOne Login
+Become a Cyware Partner
+Resources
+Blog
+Security Guides
+White Papers, Ebooks & Reports
+Events & Conferences
+Webinars
+Cyware Social
+Company
+About Cyware
+Careers
+News and Press
+Legal Center
+Technical Support
+Contact Us
+Privacy Policy
+Terms & Conditions
+© Copyright 2025, All Rights Reserved by Cyware
+YouTube
+LinkedIn
+X

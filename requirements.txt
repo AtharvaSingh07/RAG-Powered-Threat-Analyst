@@ -1,0 +1,13 @@
+rich==13.6.0
+colored==2.2.3
+unstructured==0.10.19
+openai
+llama-index
+chromadb
+iocextract==1.16.1
+tiktoken==0.5.1
+loguru==0.7.2
+streamlit==1.27.2
+streamlit-mermaid==0.2.0
+streamlit-extras==0.3.4
+PyPDF2==3.0.1
